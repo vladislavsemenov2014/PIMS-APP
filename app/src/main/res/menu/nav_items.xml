@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <!--
+                Add menu items here
+                Menu items with icon and Title
+        -->
+        <item
+            android:id="@+id/Message"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="First Menu" />
+        <item
+            android:id="@+id/Location"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Second Menu" />
+        <item
+            android:id="@+id/About"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Third Menu" />
+    </group>
+</menu>
